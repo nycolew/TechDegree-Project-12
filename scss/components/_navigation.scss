@@ -1,0 +1,72 @@
+// ================
+//    NAVIGATION
+// ================
+
+.main-nav {
+  @include flexify($dir: row, $just: space-between);
+}
+
+.mobile-nav,
+#footer-nav {
+  background: transparent;
+
+  svg,
+  li,
+  a {
+    background: transparent;
+  }
+}
+
+
+
+// .side-nav {
+//   background: $color-accent;
+//   height: em(75px);
+//   width: 100%;
+//   position: fixed;
+//   z-index: 50;
+//   top: em(75px);
+//   overflow-y: hidden;
+//   padding: em(8px);
+//
+//   ul {
+//     @include flexify($dir: row, $just: space-around);
+//
+//     @include mq(large) {
+//       @include flexify($dir: column, $just: space-around);
+//       padding-left: em(45px);
+//     }
+//   }
+//
+//   svg {
+//     width: em(30px);
+//     height: auto;
+//
+//     path {
+//       fill: $color-shade;
+//     }
+//
+//     @include mq(medium) {
+//       height: em(45px);
+//       padding-bottom: em(20px);
+//     }
+//
+//     @include mq(large) {
+//       height: em(60px);
+//     }
+//   }
+//
+//   @include mq(large) {
+//     height: 100%;
+//     width: em(150px);
+//     top: em(100px);
+//     left: 0;
+//     overflow-x: hidden;
+//   }
+// }
+//
+// svg.current {
+//     path {
+//       fill: $white;
+//     }
+// }

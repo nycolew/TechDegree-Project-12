@@ -1,0 +1,25 @@
+// ==============================
+//        BASE STYLES
+// ==============================
+
+
+* {
+  box-sizing: border-box;
+  font-family: $font-family--primary;
+  background: $firefly;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  font-size: $base__font-size;
+  color: $color-text;
+}
+
+body {
+  margin: 0;
+  padding-bottom: em(100px); 
+}
